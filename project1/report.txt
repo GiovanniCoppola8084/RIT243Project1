@@ -1,0 +1,72 @@
+Assignment Report
+Assignment name is: Brace-topia
+
+My name is: 	Giovanni Coppola
+My login ID is:	gac6151
+
+[insert your answers after the question and add more lines as needed.]
+
+[PLEASE MAKE YOUR ANSWERS SHORT AND TO THE POINT. BULLET POINTS ARE GOOD.]
+
+============= PROGRAM STATUS ==============
+
+What is the status of the program?
+Does it: put an X inside the [] for your answer
+	[] crashes when?
+	[] infinite loop when it should not?
+	[] only works in printed mode?
+	[X] work fine?
+	[] only implemented these options: [please list them]
+	[] other? Explain.
+
+
+How does your move strategy work? Describe briefly in English.
+The move strategy is implemented as wanted by the instructions. It loops through
+and finds a valid spot for the current agent to move to if their happiness falls
+below the strength of preference. It'll swap those two and make the previous vacant
+spot unavailable for the rest of the cycle for other agents. 
+
+
+
+============= SIMULATION ANALYSIS ==============
+
+What did you find most revealing about the simulation?
+What I found most revealing was just how helpful knowing how to debug code
+can be. I knew this before hand, but the debugger really came in handy. It also
+really messed me up when I was testing the code as the matrices are built 
+different than when running the code normally. It was still more help than it
+was harm for me.
+
+
+============= GENERAL PROJECT FEEDBACK ==============
+
+What did I learn?
+What I learned was how to use matrices effectively and how to manipulate them,
+even when they are filled where characters.
+
+
+What was easy about this assignment?
+What I found easy was the initial grasping of the project. I knew where the calculations
+would be going, and the basis of how they would be done, I started to understand more 
+on how the agents will move, and I understood how the structure of the lab should look.
+
+
+What gave you problems or troubles?
+As stated previously, running the debugger did not help me, and it made me run into more troubles 
+when trying to fix my algorithm. I did eventually get them fixed, but it took me longer than I 
+was anticipating.
+
+
+What should the instructor do to improve this assignment?
+To improve this assignment, maybe give a brief lecture on how to use the curses mode, or some
+more documentation. I went searching for it and found the right documents, but it was still
+annoying to deal with learning how to print that while also making sure the rest of the code
+printed fine.
+
+
+What would you have liked to do in this assignment?
+I did like the learning curve of this project. I felt that the more that I got into it, the 
+more difficult it got, but I was also learning new tricks while doing the lab and updating my
+code as I went along to be more efficient.
+
+

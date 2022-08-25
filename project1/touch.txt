@@ -1,0 +1,558 @@
+Copying files...done
+Initializing - please wait...
+ON-TIME submission of project1-1
+Compiling your submission....
+gcc -std=c99 -ggdb -Wall -Wextra -pedantic  -c bracetopia.c
+gcc -std=c99 -ggdb -Wall -Wextra -pedantic -o bracetopia bracetopia.o  -lm  -lcurses 
+
+Test 1: bracetopia -h < input.1
+Differences in your standard output:
+*** ../../project1/stdout.1	2022-01-31 15:26:13.000000000 -0500
+--- out.1	2022-02-23 23:24:08.906792000 -0500
+***************
+*** 0 ****
+--- 1,130 ----
++ [?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2Jneneeeeeeeeeene
++ e.neen.ee.eeeen
++ enn.nnnnneeenee
++ nee.ne.eene..en
++ eennn..een.ennn
++ neneneeeneen.nn
++ n..eeen.enee.n.
++ .neennn.nnn.een
++ eeeeene.nnnn..e
++ neeeennn.ne.nne
++ ee.n.ee..een.ee
++ nn..nn..een.een
++ eneeen..e.eeenn
++ .eeee.e.eeeeeee
++ eee..eenn.nne.e
++ cycle: 0
++ moves this cycle: 0
++ teams' "happiness": 0.5677
++ dim: 15, %strength of preference:  50%, %vacancy:  20%, %end:  60%
++ Use Control-C to quit.
++ [H...[1;14H..
++ ......e[15G.
++ .........eee.
++ ......eee.e....
++ .....eeee...
++ ...[6;13Hn
++ nneeeenneneennn
++ n[8Gnnnnn
++ [8Gnnnnnnn
++ [9Gnnee
++ eeeneeeneeenn
++ nnnnnneneene
++ [7Genen
++ neeeenen
++ eeeeneennennen
++ [8G1[17;19H45
++ 0.6239
++ 
++ 
++ [Hnne[1;14Hen
++ eennneeeeeeeeee
++ neennneeeeeee
++ eeneeeeeeneeeen
++ neenneeeennn
++ nene.eee.
++ .nn....
++ n.ee..[13G..
++ .eeee..[15G.
++ .eeee..nnn..nn.
++ ...............
++ ........
++ 
++ 
++ 
++ [8G2[18;24H8
++ 
++ 
++ [H.....[1;15H.
++ .....
++ ......
++ .....eeee.eeee.
++ .....eeee...
++ ....[11G.
++ ..[7;11Hn
++ neeenn[13Gnn
++ eeeeeen[15Gn
++ neeeeeennnnenne
++ nnneennnnnnenen
++ nenneeee
++ 
++ 
++ 
++ [8G3[18;23H7066
++ 
++ 
++ [Hnnnne[1;15He
++ ennnn
++ nnenen
++ nenneeeeeeeeeee
++ eneneeeeenne
++ nennneeenen
++ eneeeenneenn
++ .eee..
++ 
++ .eeeee.nnnn.nn.
++ ...ee...nnn....
++ ....ee.....ee..
++ ..eee.....eee..
++ .eeee.....eeee.
++ [5G.
++ [8G4[18;24H805
++ 
++ 
++ [Hnnnn.
++ .
++ n.n..
++ n.n..
++ .n.n.eeee...
++ ..n..eee...
++ ..eeee....
++ eeeeee.
++ 
++ eeeeeen[15Gn
++ eeeeeenn[15Gn
++ ..e.ee.nnn.eee
++ .eeee..nnneeeee
++ [6Ge..nneeeee
++ [5Gee.
++ [8G5[18;23H9194
++ 
++ 
++ [Hnnnne
++ n
++ nnnn[15;10H...e.
++ [8G6[17;20H 
++ 0.9400
++ 
++ 
++ [Hnnnn.
++ 
++ e[16d[8G7[17;19H1
++ [25G29
++ 
++ 
++ [16d[8G8[17;19H0
++ 
++ 
++ 
++ [16d[8G9[21d[16d[8G10[21d[16d[16;9H1[21d[16d[16;9H2[21d[16d[16;9H3[21d[16d[16;9H4[21d[16d[16;9H5[21d[16d[16;9H6[21d[16d[16;9H7[21d[16d[16;9H8[21d[16d[16;9H9[21d[16d[8G20[21d[16d[16;9H1[21d[16d[16;9H2[21d[16d[16;9H3[21d[16d[16;9H4[21d[16d[16;9H5[21d[16d[16;9H6[21d[16d[16;9H7[21d[16d[16;9H8[21d[16d[16;9H9[21d[16d[8G30[21d[16d[16;9H1[21d[16d[16;9H2[21d[16d[16;9H3[21d[16d[16;9H4[21d[16d[16;9H5[21d[16d[16;9H6[21d[16d[16;9H7[21d[16d[16;9H8[21d[16d[16;9H9[21d[16d[8G40[21d[16d[16;9H1[21d[16d[16;9H2[21d[16d[16;9H3[21d[16d[16;9H4[21d[16d[16;9H5[21d[16d[16;9H6[21d[16d[16;9H7[21d[16d[16;9H8[21d[16d[16;9H9[21d[16d[8G50[21d[16d[16;9H1[21d[16d[16;9H2[21d[16d[16;9H3[21d[16d[16;9H4[21d[16d[16;9H5[21d[16d[16;9H6[21d[16d[16;9H7[21d[16d[16;9H8[21d[16d[16;9H9[21d[16d[8G60[21d[16d[16;9H1[21d[16d[16;9H2[21d[16d[16;9H3[21d[16d[16;9H4[21d[16d[16;9H5[21d[16d[16;9H6[21d[16d[16;9H7[21d[16d[16;9H8[21d[16d[16;9H9[21d[16d[8G70[21d[16d[16;9H1[21d[16d[16;9H2[21d[16d[16;9H3[21d[16d[16;9H4[21d[16d[16;9H5[21d[16d[16;9H6[21d[16d[16;9H7[21d[16d[16;9H8[21d[16d[16;9H9[21d[16d[8G80[21d[16d[16;9H1[21d[16d[16;9H2[21d[16d[16;9H3[21d[16d[16;9H4[21d[16d[16;9H5[21d[16d[16;9H6[21d[16d[16;9H7[21d[16d[16;9H8[21d[16d[16;9H9[21d[16d[8G90[21d[16d[16;9H1[21d[16d[16;9H2[21d[16d[16;9H3[21d[16d[16;9H4[21d[16d[16;9H5[21d[16d[16;9H6[21d[16d[16;9H7[21d[16d[16;9H8[21d[16d[16;9H9[21d[16d[8G100[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H10[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H20[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H30[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H40[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H50[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H60[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H70[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H80[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H90[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[8G200[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H10[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H20[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H30[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H40[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H50[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H60[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H70[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H80[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H90[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[8G300[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H10[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H20[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H30[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H40[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H50[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H60[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H70[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H80[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H90[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[8G400[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H10[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H20[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H30[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7[21d[16d[16;10H8[21d[16d[16;10H9[21d[16d[16;9H40[21d[16d[16;10H1[21d[16d[16;10H2[21d[16d[16;10H3[21d[16d[16;10H4[21d[16d[16;10H5[21d[16d[16;10H6[21d[16d[16;10H7
++ Program failed: File size limit, core dumped
+
+Test 2: bracetopia -t < input.2
+Differences in your standard error output:
+*** ../../project1/stderr.2	2022-01-31 15:26:13.000000000 -0500
+--- eout.2	2022-02-23 23:24:09.038808000 -0500
+***************
+*** 1,3 ****
+--- 1,4 ----
+  bracetopia: option requires an argument -- 't'
++ bracetopia: invalid option -- 't'
+  usage: 
+  bracetopia [-h] [-t N] [-c N] [-d dim] [-s %str] [-v%vac] [-e %end]
+Still testing...    Wed Feb 23 23:24:09 EST 2022 
+
+Test 3: bracetopia -c < input.3
+Differences in your standard error output:
+*** ../../project1/stderr.3	2022-01-31 15:26:13.000000000 -0500
+--- eout.3	2022-02-23 23:24:09.171851000 -0500
+***************
+*** 1,3 ****
+--- 1,4 ----
+  bracetopia: option requires an argument -- 'c'
++ bracetopia: invalid option -- 'c'
+  usage: 
+  bracetopia [-h] [-t N] [-c N] [-d dim] [-s %str] [-v%vac] [-e %end]
+
+Test 4: bracetopia -d < input.4
+Differences in your standard error output:
+*** ../../project1/stderr.4	2022-01-31 15:26:13.000000000 -0500
+--- eout.4	2022-02-23 23:24:09.285644000 -0500
+***************
+*** 1,3 ****
+--- 1,4 ----
+  bracetopia: option requires an argument -- 'd'
++ bracetopia: invalid option -- 'd'
+  usage: 
+  bracetopia [-h] [-t N] [-c N] [-d dim] [-s %str] [-v%vac] [-e %end]
+
+Test 5: bracetopia -s < input.5
+Differences in your standard error output:
+*** ../../project1/stderr.5	2022-01-31 15:26:13.000000000 -0500
+--- eout.5	2022-02-23 23:24:09.396985000 -0500
+***************
+*** 1,3 ****
+--- 1,4 ----
+  bracetopia: option requires an argument -- 's'
++ bracetopia: invalid option -- 's'
+  usage: 
+  bracetopia [-h] [-t N] [-c N] [-d dim] [-s %str] [-v%vac] [-e %end]
+Still testing...    Wed Feb 23 23:24:09 EST 2022 
+
+Test 6: bracetopia -v < input.6
+Differences in your standard error output:
+*** ../../project1/stderr.6	2022-01-31 15:26:13.000000000 -0500
+--- eout.6	2022-02-23 23:24:09.535897000 -0500
+***************
+*** 1,3 ****
+--- 1,4 ----
+  bracetopia: option requires an argument -- 'v'
++ bracetopia: invalid option -- 'v'
+  usage: 
+  bracetopia [-h] [-t N] [-c N] [-d dim] [-s %str] [-v%vac] [-e %end]
+
+Test 7: bracetopia -e < input.7
+Differences in your standard error output:
+*** ../../project1/stderr.7	2022-01-31 15:26:13.000000000 -0500
+--- eout.7	2022-02-23 23:24:09.659007000 -0500
+***************
+*** 1,3 ****
+--- 1,4 ----
+  bracetopia: option requires an argument -- 'e'
++ bracetopia: invalid option -- 'e'
+  usage: 
+  bracetopia [-h] [-t N] [-c N] [-d dim] [-s %str] [-v%vac] [-e %end]
+
+Test 8: bracetopia -x < input.8
+Differences in your standard error output:
+*** ../../project1/stderr.8	2022-01-31 15:26:13.000000000 -0500
+--- eout.8	2022-02-23 23:24:09.786207000 -0500
+***************
+*** 1,3 ****
+--- 1,4 ----
+  bracetopia: invalid option -- 'x'
++ bracetopia: invalid option -- 'x'
+  usage: 
+  bracetopia [-h] [-t N] [-c N] [-d dim] [-s %str] [-v%vac] [-e %end]
+Still testing...    Wed Feb 23 23:24:09 EST 2022 
+
+Test 9: bracetopia -c0 < input.9
+Differences in your standard output:
+*** ../../project1/stdout.9	2022-01-31 15:26:13.000000000 -0500
+--- out.9	2022-02-23 23:24:09.923034000 -0500
+***************
+*** 1,19 ****
+! eeeneen..enneen
+! e.e.e.ne.nnn.nn
+! ene.neee.eeee.e
+! eeenen..e.eneen
+! .eeneneenene.en
+! eeeen.e.ee.en.n
+! e.enne.eenn..ne
+! enn.nee..e.eene
+! nnneneenne.enee
+! n...eeeeeenenne
+! .e.neneeeeneeee
+! .en.nnen..eennn
+! .nneennnnenenne
+! e.eeeeneen..eee
+! nenen.e...eennn
+  cycle: 0                                                       
+  moves this cycle: 0                                                       
+! teams' "happiness": 0.4965                                                  
+  dim: 15, %strength of preference:  50%, %vacancy:  20%, %end:  60%
+--- 1,19 ----
+! neneeeeeeeeeene
+! e.neen.ee.eeeen
+! enn.nnnnneeenee
+! nee.ne.eene..en
+! eennn..een.ennn
+! neneneeeneen.nn
+! n..eeen.enee.n.
+! .neennn.nnn.een
+! eeeeene.nnnn..e
+! neeeennn.ne.nne
+! ee.n.ee..een.ee
+! nn..nn..een.een
+! eneeen..e.eeenn
+! .eeee.e.eeeeeee
+! eee..eenn.nne.e
+  cycle: 0
+  moves this cycle: 0
+! teams' "happiness": 0.5677
+  dim: 15, %strength of preference: 50%, %vacancy: 20%, %end: 60%
+
+Test 10: bracetopia -c1 < input.10
+Differences in your standard output:
+*** ../../project1/stdout.10	2022-01-31 15:26:13.000000000 -0500
+--- out.10	2022-02-23 23:24:10.044867000 -0500
+***************
+*** 1,38 ****
+! eeeneen..enneen
+! e.e.e.ne.nnn.nn
+! ene.neee.eeee.e
+! eeenen..e.eneen
+! .eeneneenene.en
+! eeeen.e.ee.en.n
+! e.enne.eenn..ne
+! enn.nee..e.eene
+! nnneneenne.enee
+! n...eeeeeenenne
+! .e.neneeeeneeee
+! .en.nnen..eennn
+! .nneennnnenenne
+! e.eeeeneen..eee
+! nenen.e...eennn
+  cycle: 0                                                       
+  moves this cycle: 0                                                       
+! teams' "happiness": 0.4965                                                  
+  dim: 15, %strength of preference:  50%, %vacancy:  20%, %end:  60%
+! eee.eenne.nn..n
+! eeeeen.en.nnnnn
+! e.en.eeeeeee.e.
+! eee...neene.ee.
+! nee..nee.e.en.n
+! eeeenneeeen.nnn
+! eeenneeee..nnn.
+! .nne.eeenee..ne
+! nnn..ee..eeen.e
+! nenneeeeee.e..e
+! n.en..eeee.eeee
+! n.nnnn.nneee...
+! enneennnnenenne
+! eneeeeneenneeee
+! neneneennneennn
+  cycle: 1                                                       
+  moves this cycle: 45                                                      
+! teams' "happiness": 0.6352                                                  
+  dim: 15, %strength of preference:  50%, %vacancy:  20%, %end:  60%
+--- 1,38 ----
+! neneeeeeeeeeene
+! e.neen.ee.eeeen
+! enn.nnnnneeenee
+! nee.ne.eene..en
+! eennn..een.ennn
+! neneneeeneen.nn
+! n..eeen.enee.n.
+! .neennn.nnn.een
+! eeeeene.nnnn..e
+! neeeennn.ne.nne
+! ee.n.ee..een.ee
+! nn..nn..een.een
+! eneeen..e.eeenn
+! .eeee.e.eeeeeee
+! eee..eenn.nne.e
+  cycle: 0
+  moves this cycle: 0
+! teams' "happiness": 0.5677
+  dim: 15, %strength of preference: 50%, %vacancy: 20%, %end: 60%
+! ...eeeeeeeeee..
+! ......eee.eeee.
+! .........eee.ee
+! ......eee.e....
+! .....eeee...nnn
+! ...eneeeneennnn
+! nneeeenneneennn
+! nneennnnnnnneen
+! eeeeenennnnnnne
+! neeeennnnneenne
+! eeeneeeneeennee
+! nnnnnneneeneeen
+! eneeeneneneeenn
+! neeeeneneeeeeee
+! eeeeneennennene
+  cycle: 1
+  moves this cycle: 45
+! teams' "happiness": 0.6239
+  dim: 15, %strength of preference: 50%, %vacancy: 20%, %end: 60%
+
+Test 11: bracetopia -c  2 < input.11
+Differences in your standard output:
+*** ../../project1/stdout.11	2022-01-31 15:26:13.000000000 -0500
+--- out.11	2022-02-23 23:24:10.157303000 -0500
+***************
+*** 1,57 ****
+! eeeneen..enneen
+! e.e.e.ne.nnn.nn
+! ene.neee.eeee.e
+! eeenen..e.eneen
+! .eeneneenene.en
+! eeeen.e.ee.en.n
+! e.enne.eenn..ne
+! enn.nee..e.eene
+! nnneneenne.enee
+! n...eeeeeenenne
+! .e.neneeeeneeee
+! .en.nnen..eennn
+! .nneennnnenenne
+! e.eeeeneen..eee
+! nenen.e...eennn
+  cycle: 0                                                       
+  moves this cycle: 0                                                       
+! teams' "happiness": 0.4965                                                  
+  dim: 15, %strength of preference:  50%, %vacancy:  20%, %end:  60%
+! eee.eenne.nn..n
+! eeeeen.en.nnnnn
+! e.en.eeeeeee.e.
+! eee...neene.ee.
+! nee..nee.e.en.n
+! eeeenneeeen.nnn
+! eeenneeee..nnn.
+! .nne.eeenee..ne
+! nnn..ee..eeen.e
+! nenneeeeee.e..e
+! n.en..eeee.eeee
+! n.nnnn.nneee...
+! enneennnnenenne
+! eneeeeneenneeee
+! neneneennneennn
+  cycle: 1                                                       
+  moves this cycle: 45                                                      
+! teams' "happiness": 0.6352                                                  
+  dim: 15, %strength of preference:  50%, %vacancy:  20%, %end:  60%
+! eeeeeenn.nnnnnn
+! eeeee.ee.nnnnnn
+! ene.eeeeeeeen.e
+! eeennn.ee.ene.e
+! .eeneneenee.nen
+! eeeen.eeee.nnnn
+! eee..eeeeennnnn
+! nnn.neee.eeeen.
+! nnneneeeneee.ne
+! n.nneeeeeenenne
+! n..n..eeee.eeee
+! n.nnnn.n.eee...
+! .nneennn.e.e..e
+! .neeeen..n.eeee
+! n..e.eennnee...
+  cycle: 2                                                       
+! moves this cycle: 36                                                      
+! teams' "happiness": 0.7147                                                  
+  dim: 15, %strength of preference:  50%, %vacancy:  20%, %end:  60%
+--- 1,57 ----
+! neneeeeeeeeeene
+! e.neen.ee.eeeen
+! enn.nnnnneeenee
+! nee.ne.eene..en
+! eennn..een.ennn
+! neneneeeneen.nn
+! n..eeen.enee.n.
+! .neennn.nnn.een
+! eeeeene.nnnn..e
+! neeeennn.ne.nne
+! ee.n.ee..een.ee
+! nn..nn..een.een
+! eneeen..e.eeenn
+! .eeee.e.eeeeeee
+! eee..eenn.nne.e
+  cycle: 0
+  moves this cycle: 0
+! teams' "happiness": 0.5677
+  dim: 15, %strength of preference: 50%, %vacancy: 20%, %end: 60%
+! ...eeeeeeeeee..
+! ......eee.eeee.
+! .........eee.ee
+! ......eee.e....
+! .....eeee...nnn
+! ...eneeeneennnn
+! nneeeenneneennn
+! nneennnnnnnneen
+! eeeeenennnnnnne
+! neeeennnnneenne
+! eeeneeeneeennee
+! nnnnnneneeneeen
+! eneeeneneneeenn
+! neeeeneneeeeeee
+! eeeeneennennene
+  cycle: 1
+  moves this cycle: 45
+! teams' "happiness": 0.6239
+  dim: 15, %strength of preference: 50%, %vacancy: 20%, %end: 60%
+! nneeeeeeeeeeeen
+! eennneeeeeeeeee
+! neennneeeeeeeee
+! eeneeeeeeneeeen
+! neenneeeennnnnn
+! nene.eee.eennnn
+! nneee.nn....nnn
+! n.ee..nnnnnn..n
+! .eeee..nnnnnnn.
+! .eeee..nnn..nn.
+! ...............
+! ........eeneeen
+! eneeeneneneeenn
+! neeeeneneeeeeee
+! eeeeneennennene
+  cycle: 2
+! moves this cycle: 45
+! teams' "happiness": 0.6839
+  dim: 15, %strength of preference: 50%, %vacancy: 20%, %end: 60%
+Still testing...    Wed Feb 23 23:24:10 EST 2022 
+
+Test 12: bracetopia -d4 -c 1 < input.12
+
+Test 13: bracetopia -d40 -c1 < input.13
+
+Test 14: bracetopia -d8 -c1 < input.14
+Differences in your standard output:
+*** ../../project1/stdout.14	2022-01-31 15:26:13.000000000 -0500
+--- out.14	2022-02-23 23:24:10.452771000 -0500
+***************
+*** 1,24 ****
+! .e.neeen
+! eneeeeen
+! .ene.nee
+! nenen.nn
+! .neenn.e
+! neee.e.n
+! .enee.ne
+! en.ennee
+  cycle: 0                                                       
+  moves this cycle: 0                                                       
+! teams' "happiness": 0.4747                                                  
+  dim: 8, %strength of preference:  50%, %vacancy:  20%, %end:  60%
+! nen.eee.
+! e.eeeee.
+! n..en.ee
+! n..e.e..
+! nneennne
+! neeeeenn
+! neneenne
+! ennennee
+  cycle: 1                                                       
+  moves this cycle: 12                                                      
+! teams' "happiness": 0.5606                                                  
+  dim: 8, %strength of preference:  50%, %vacancy:  20%, %end:  60%
+--- 1,24 ----
+! e.eeeeen
+! .neene.n
+! ..n.enne
+! eeennnne
+! ee.eee.e
+! eee.eenn
+! nnne.nen
+! een..nen
+  cycle: 0
+  moves this cycle: 0
+! teams' "happiness": 0.5071
+  dim: 8, %strength of preference: 50%, %vacancy: 20%, %end: 60%
+! .eeeeeen
+! n.ee.enn
+! ne.e.nn.
+! eee..nn.
+! ee.ee.n.
+! eeeeeenn
+! nnnennen
+! eeneenen
+  cycle: 1
+  moves this cycle: 12
+! teams' "happiness": 0.6341
+  dim: 8, %strength of preference: 50%, %vacancy: 20%, %end: 60%
+Still testing...    Wed Feb 23 23:24:10 EST 2022 
+Still testing...    Wed Feb 23 23:24:10 EST 2022 
+Still testing...    Wed Feb 23 23:24:11 EST 2022 
+Still testing...    Wed Feb 23 23:24:11 EST 2022 
+Still testing...    Wed Feb 23 23:24:12 EST 2022 
+Still testing...    Wed Feb 23 23:24:12 EST 2022 
+
+Creating submission archive - please wait....
+Files being saved:
+bracetopia.c report.txt revisions.txt
+
+
+Submission dated 2022/02/23 23:17:25 has been completed
+Your files: bracetopia.c report.txt revisions.txt 

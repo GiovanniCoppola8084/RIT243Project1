@@ -1,0 +1,137 @@
+commit 725fe3a16e5f8ac6a1315c1b031006344ecbfa9c
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Thu Feb 24 09:31:27 2022 -0500
+
+    Ignore the last push. The switch statement now allows both cases to work in which the command is missing a value, or if the command is unknown.
+
+commit 7bf149b82c6378a10643ad051e462d6b1b8b464f
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Thu Feb 24 09:03:40 2022 -0500
+
+    Switch statement fixed for getopt. The cases for when there is an incomplete arg and invalid arg were swapped around to make it correct.
+
+commit 9acf8d4a4fcf4eebf96f8fc00347fab9183fc643
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Thu Feb 24 08:58:47 2022 -0500
+
+    Case for when the user enters h for a command line arg has been updated to stop the program, and to not continue running the algroithm.
+
+commit 62e1821f4bba8e204f8efe5af2767261b0956e79
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Wed Feb 23 23:10:46 2022 -0500
+
+    Final changes and comments were added. One statement was missing from the optarg switch (when there was an unknown arg used), and some of the formatting needed to be changed for other optarg statements. Also, the for loop that runs the finite mode print was changed so that it can print out the zero cycle when -c0 is used. Try was run and it looks accurate. The matrices don't exactly match up, but the rest of the data is either the same, or accurate for the matrix that I have for my code.
+
+commit edf4e737aab8e45ebc41d7b2c78c663dacefb469
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Wed Feb 23 21:40:21 2022 -0500
+
+    The algroithm finally works in finding the neighbors for the agents. The only thing left to change is the printing of the cycle, the moves, and the team happiness.
+
+commit 9a13b40cacd45f2abeeadfb85856ad39c40433f3
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Tue Feb 22 22:35:21 2022 -0500
+
+    Case added where the command line argument is incomplete.
+
+commit ddd467fa00fb39cee819203b2870d1a9f506802c
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Tue Feb 22 22:25:56 2022 -0500
+
+    The function to determine the happiness of an agent was changed in order to use the value of the agent as a parameter. The function to find the happiness was also changed to only use nested for loops (minimal code). The main was also changed to pass in a different parameter to the print functions for the happiness level. Changes were also made to function comments, and the header doc was added to the file.
+
+commit f744c21aaf2b9a9810a024b5ec974588e2acc4d8
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Mon Feb 21 17:44:29 2022 -0500
+
+    Some changes were made to previous functions in order to make the algorithm work properly
+
+commit 54ab90dcab0b2fdbeac84919cdf471ea0b8fa45f
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Mon Feb 21 17:03:53 2022 -0500
+
+    The rest of the main function was completed so that it will run cycles in either the curses, or non curses mode, as many times as the user specifies. Testing was not done just yet
+
+commit 4316916b99e345d71df80faa10cc08752340df36
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Mon Feb 21 16:44:06 2022 -0500
+
+    The switch statement order was changed to fit that of the order that it is passed into the command line arguments from. Also, some of the functionality of the switch was added. There are still some errors checks that need to be added. Finally, some other code was changed after the switch statement.
+
+commit ed55745e37fa87661f4f59ebaa124c344cdfb53f
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Mon Feb 21 15:59:00 2022 -0500
+
+    Two functions were made to print the usage and help message to clean up the code for the opt switch statement
+
+commit 882067541748bfccaf79833d2790982874ded52d
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Mon Feb 21 15:36:13 2022 -0500
+
+    Function comments were added about the definition of each function
+
+commit 8f4a8a2b92ac89b5cc8302632f8c4d1a4fa17a86
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Mon Feb 21 15:16:06 2022 -0500
+
+    Function added to print the city data using infinite curses mode
+
+commit 2d76b4ce082b29720c444331a76cfcf394a9dc41
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Mon Feb 21 14:51:06 2022 -0500
+
+    Function was created to print the data for the city when using the non-curses mode
+
+commit 1837b89ec64cc1808b6b1b097a60dbe7ea47c3c9
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Mon Feb 21 14:27:13 2022 -0500
+
+    Functions were changed in order to use a matrix, and not a grid. This is to reduce the lines of code and amount of processing needed to run the program.
+
+commit fca7a14883752de3e6ebe90d0a5a8b81998e6324
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Mon Feb 21 14:05:18 2022 -0500
+
+    Function made to find the average happiness of the non-vacant agents in the city
+
+commit 8d26af55cb66ea2484d093c25164daab9d8bc086
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Mon Feb 21 13:48:25 2022 -0500
+
+    Function made to clear the vacancies that were used when the agent was being moved during a cycle
+
+commit 8eef7a86d8d5044081f550ab552997a301557759
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Mon Feb 21 13:38:55 2022 -0500
+
+    Function made to convert the matrix back into a grid
+
+commit 06ecd5bbf4c43803ef41f979be6e0f9ed83a4ccf
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Mon Feb 21 13:36:22 2022 -0500
+
+    Function updated to move the agent
+
+commit b95ae092c625aa5de0aa6bf838a7fcf613e85021
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Sun Feb 20 18:27:29 2022 -0500
+
+    Functions added to convert a grid to a 2d martix, a function to measure the happiness of the current agent, and started the function to move the agent
+
+commit ecb85003a103f288d48a899754dc2d81c90833ed
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Sat Feb 19 12:21:49 2022 -0500
+
+    Fixed up the code so the warnings have been fixed aside from unused parameter ones (which will be used later)
+
+commit f78c81df3c32cc9def1510f215bbeb79aa718ddb
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Fri Feb 18 16:04:00 2022 -0500
+
+    Function to initialize the array was made
+
+commit 3d1f12269e513ef7f5bcab80acd5f741fd1da239
+Author: Gino A Coppola <gac6151@cs.rit.edu>
+Date:   Wed Feb 16 00:00:42 2022 -0500
+
+    Created the switch statement that will be used to process the command line arguments and set the values that will help run the algorithm.
